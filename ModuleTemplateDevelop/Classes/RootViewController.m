@@ -6,15 +6,15 @@
 //  Copyright © 2017年 张九州. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "RootViewController.h"
 #import <CApplication/CModuleManager.h>
 #import <ModuleTemplate/IExampleUIFactory.h>
 
-@interface ViewController ()
+@interface RootViewController ()
 
 @end
 
-@implementation ViewController
+@implementation RootViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -18,7 +18,7 @@
 		84CDF94A1FF24A1100DC3310 /* ExampleUIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CDF9461FF24A1100DC3310 /* ExampleUIFactory.m */; };
 		84CDF94B1FF24A1100DC3310 /* ExampleViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 84CDF9471FF24A1100DC3310 /* ExampleViewController.h */; };
 		84CDF94D1FF24A1800DC3310 /* IExampleUIFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 84CDF94C1FF24A1800DC3310 /* IExampleUIFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84CDF9531FF24A7100DC3310 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CDF9501FF24A7100DC3310 /* ViewController.m */; };
+		84CDF9531FF24A7100DC3310 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CDF9501FF24A7100DC3310 /* RootViewController.m */; };
 		84CDF9541FF24A7100DC3310 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CDF9511FF24A7100DC3310 /* AppDelegate.m */; };
 		84CDF9551FF24AB200DC3310 /* CApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CDF93E1FF2496700DC3310 /* CApplication.framework */; };
 		84CDF9591FF2520600DC3310 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CDF9581FF2520600DC3310 /* Media.xcassets */; };
@@ -63,9 +63,9 @@
 		84CDF9471FF24A1100DC3310 /* ExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleViewController.h; sourceTree = "<group>"; };
 		84CDF94C1FF24A1800DC3310 /* IExampleUIFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IExampleUIFactory.h; sourceTree = "<group>"; };
 		84CDF94F1FF24A7100DC3310 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		84CDF9501FF24A7100DC3310 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84CDF9501FF24A7100DC3310 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		84CDF9511FF24A7100DC3310 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84CDF9521FF24A7100DC3310 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84CDF9521FF24A7100DC3310 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		84CDF9581FF2520600DC3310 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -163,8 +163,8 @@
 			children = (
 				84CDF94F1FF24A7100DC3310 /* AppDelegate.h */,
 				84CDF9511FF24A7100DC3310 /* AppDelegate.m */,
-				84CDF9521FF24A7100DC3310 /* ViewController.h */,
-				84CDF9501FF24A7100DC3310 /* ViewController.m */,
+				84CDF9521FF24A7100DC3310 /* RootViewController.h */,
+				84CDF9501FF24A7100DC3310 /* RootViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -310,7 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84CDF9531FF24A7100DC3310 /* ViewController.m in Sources */,
+				84CDF9531FF24A7100DC3310 /* RootViewController.m in Sources */,
 				84CDF92F1FF248B100DC3310 /* main.m in Sources */,
 				84CDF9541FF24A7100DC3310 /* AppDelegate.m in Sources */,
 			);
